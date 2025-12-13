@@ -1,0 +1,385 @@
+[
+  {
+    "id": "housing_01",
+    "category": "housing",
+    "text": "どのような住環境を重視しますか？",
+    "weight": 1.0,
+    "options": [
+      {
+        "id": "housing_01_a",
+        "text": "静かで落ち着いた住宅街",
+        "value": 5,
+        "tags": ["quiet", "residential", "peaceful"]
+      },
+      {
+        "id": "housing_01_b", 
+        "text": "便利で活気のある都市部",
+        "value": 1,
+        "tags": ["urban", "convenient", "lively"]
+      },
+      {
+        "id": "housing_01_c",
+        "text": "バランスの取れた環境",
+        "value": 3,
+        "tags": ["balanced", "moderate"]
+      }
+    ]
+  },
+  {
+    "id": "housing_02",
+    "category": "housing",
+    "text": "家族での住みやすさをどの程度重視しますか？",
+    "weight": 0.8,
+    "options": [
+      {
+        "id": "housing_02_a",
+        "text": "とても重視する（子育て環境など）",
+        "value": 5,
+        "tags": ["family", "children", "safety"]
+      },
+      {
+        "id": "housing_02_b",
+        "text": "やや重視する",
+        "value": 3,
+        "tags": ["family", "moderate"]
+      },
+      {
+        "id": "housing_02_c",
+        "text": "あまり重視しない",
+        "value": 1,
+        "tags": ["single", "independent"]
+      }
+    ]
+  },
+  {
+    "id": "housing_03",
+    "category": "housing",
+    "text": "住居費についてどう考えますか？",
+    "weight": 0.9,
+    "options": [
+      {
+        "id": "housing_03_a",
+        "text": "多少高くても良い立地を重視",
+        "value": 1,
+        "tags": ["premium", "location", "expensive"]
+      },
+      {
+        "id": "housing_03_b",
+        "text": "コストパフォーマンスを重視",
+        "value": 5,
+        "tags": ["value", "affordable", "practical"]
+      },
+      {
+        "id": "housing_03_c",
+        "text": "どちらでもない",
+        "value": 3,
+        "tags": ["neutral", "moderate"]
+      }
+    ]
+  },
+  {
+    "id": "transport_01",
+    "category": "transport",
+    "text": "通勤・通学での交通利便性をどの程度重視しますか？",
+    "weight": 1.2,
+    "options": [
+      {
+        "id": "transport_01_a",
+        "text": "非常に重視する（乗り換えなしなど）",
+        "value": 5,
+        "tags": ["convenience", "direct", "commute"]
+      },
+      {
+        "id": "transport_01_b",
+        "text": "ある程度重視する",
+        "value": 3,
+        "tags": ["moderate", "acceptable"]
+      },
+      {
+        "id": "transport_01_c",
+        "text": "あまり重視しない",
+        "value": 1,
+        "tags": ["flexible", "remote"]
+      }
+    ]
+  },
+
+  {
+    "id": "transport_03",
+    "category": "transport",
+    "text": "他路線への乗り換えの重要度は？",
+    "weight": 0.8,
+    "options": [
+      {
+        "id": "transport_03_a",
+        "text": "多くの路線にアクセスできることが重要",
+        "value": 5,
+        "tags": ["hub", "connections", "accessibility"]
+      },
+      {
+        "id": "transport_03_b",
+        "text": "主要な路線にアクセスできれば十分",
+        "value": 3,
+        "tags": ["major", "sufficient"]
+      },
+      {
+        "id": "transport_03_c",
+        "text": "山手線だけで十分",
+        "value": 1,
+        "tags": ["yamanote", "simple"]
+      }
+    ]
+  },
+  {
+    "id": "commercial_01",
+    "category": "commercial",
+    "text": "ショッピング施設の充実度をどの程度求めますか？",
+    "weight": 0.8,
+    "options": [
+      {
+        "id": "commercial_01_a",
+        "text": "大型商業施設やデパートが欲しい",
+        "value": 5,
+        "tags": ["shopping", "department", "large"]
+      },
+      {
+        "id": "commercial_01_b",
+        "text": "日用品が買える程度で十分",
+        "value": 1,
+        "tags": ["basic", "daily", "simple"]
+      },
+      {
+        "id": "commercial_01_c",
+        "text": "中程度の商業施設があれば良い",
+        "value": 3,
+        "tags": ["moderate", "medium"]
+      }
+    ]
+  },
+  {
+    "id": "commercial_02",
+    "category": "commercial",
+    "text": "飲食店の多様性についてどう考えますか？",
+    "weight": 0.9,
+    "options": [
+      {
+        "id": "commercial_02_a",
+        "text": "多様なジャンルの飲食店が欲しい",
+        "value": 5,
+        "tags": ["variety", "dining", "diverse"]
+      },
+      {
+        "id": "commercial_02_b",
+        "text": "基本的な飲食店があれば十分",
+        "value": 1,
+        "tags": ["basic", "simple"]
+      },
+      {
+        "id": "commercial_02_c",
+        "text": "チェーン店中心でも構わない",
+        "value": 2,
+        "tags": ["chain", "convenient"]
+      }
+    ]
+  },
+  {
+    "id": "commercial_03",
+    "category": "commercial",
+    "text": "コンビニや日用品店の利便性は？",
+    "weight": 0.6,
+    "options": [
+      {
+        "id": "commercial_03_a",
+        "text": "24時間いつでも利用できることが重要",
+        "value": 5,
+        "tags": ["convenience", "24hour", "accessible"]
+      },
+      {
+        "id": "commercial_03_b",
+        "text": "通常の営業時間で十分",
+        "value": 3,
+        "tags": ["normal", "standard"]
+      },
+      {
+        "id": "commercial_03_c",
+        "text": "あまり重視しない",
+        "value": 1,
+        "tags": ["flexible", "minimal"]
+      }
+    ]
+  },
+  {
+    "id": "culture_01",
+    "category": "culture",
+    "text": "エンターテイメント施設の充実度は？",
+    "weight": 0.7,
+    "options": [
+      {
+        "id": "culture_01_a",
+        "text": "映画館、劇場、ライブハウスなどが欲しい",
+        "value": 5,
+        "tags": ["entertainment", "cinema", "theater", "live"]
+      },
+      {
+        "id": "culture_01_b",
+        "text": "基本的な娯楽施設があれば十分",
+        "value": 3,
+        "tags": ["basic", "moderate"]
+      },
+      {
+        "id": "culture_01_c",
+        "text": "あまり重視しない",
+        "value": 1,
+        "tags": ["minimal", "home"]
+      }
+    ]
+  },
+  {
+    "id": "culture_02",
+    "category": "culture",
+    "text": "歴史や文化的な魅力をどの程度重視しますか？",
+    "weight": 0.5,
+    "options": [
+      {
+        "id": "culture_02_a",
+        "text": "歴史ある街並みや文化施設を重視",
+        "value": 5,
+        "tags": ["history", "culture", "traditional"]
+      },
+      {
+        "id": "culture_02_b",
+        "text": "現代的な街並みを好む",
+        "value": 1,
+        "tags": ["modern", "contemporary"]
+      },
+      {
+        "id": "culture_02_c",
+        "text": "どちらでも構わない",
+        "value": 3,
+        "tags": ["neutral", "flexible"]
+      }
+    ]
+  },
+  {
+    "id": "culture_03",
+    "category": "culture",
+    "text": "夜の娯楽についてどう考えますか？",
+    "weight": 0.6,
+    "options": [
+      {
+        "id": "culture_03_a",
+        "text": "バーや居酒屋などが充実していてほしい",
+        "value": 5,
+        "tags": ["nightlife", "bars", "social"]
+      },
+      {
+        "id": "culture_03_b",
+        "text": "静かな夜を過ごしたい",
+        "value": 1,
+        "tags": ["quiet", "peaceful", "early"]
+      },
+      {
+        "id": "culture_03_c",
+        "text": "時々利用できれば十分",
+        "value": 3,
+        "tags": ["occasional", "moderate"]
+      }
+    ]
+  },
+  {
+    "id": "price_01",
+    "category": "price",
+    "text": "生活費全般についてどう考えますか？",
+    "weight": 1.1,
+    "options": [
+      {
+        "id": "price_01_a",
+        "text": "できるだけ安く抑えたい",
+        "value": 5,
+        "tags": ["budget", "affordable", "economical"]
+      },
+      {
+        "id": "price_01_b",
+        "text": "品質とのバランスを重視",
+        "value": 3,
+        "tags": ["balance", "quality", "reasonable"]
+      },
+      {
+        "id": "price_01_c",
+        "text": "多少高くても良いものを選びたい",
+        "value": 1,
+        "tags": ["premium", "quality", "expensive"]
+      }
+    ]
+  },
+  {
+    "id": "price_02",
+    "category": "price",
+    "text": "外食費についてどう考えますか？",
+    "weight": 0.7,
+    "options": [
+      {
+        "id": "price_02_a",
+        "text": "リーズナブルな価格帯を重視",
+        "value": 5,
+        "tags": ["affordable", "budget", "reasonable"]
+      },
+      {
+        "id": "price_02_b",
+        "text": "価格と品質のバランス重視",
+        "value": 3,
+        "tags": ["balance", "moderate"]
+      },
+      {
+        "id": "price_02_c",
+        "text": "高級店も利用したい",
+        "value": 1,
+        "tags": ["premium", "upscale", "luxury"]
+      }
+    ]
+  },
+  {
+    "id": "priority_01",
+    "category": "priority",
+    "text": "駅選びで最も重視する項目を選んでください",
+    "weight": 1.0,
+    "options": [
+      {
+        "id": "priority_01_housing",
+        "text": "住環境（静かさ、ファミリー向け）",
+        "value": 1,
+        "tags": ["housing", "priority"]
+      },
+      {
+        "id": "priority_01_transport",
+        "text": "交通利便性（アクセス性、乗り換え）",
+        "value": 1,
+        "tags": ["transport", "priority"]
+      },
+      {
+        "id": "priority_01_commercial",
+        "text": "商業施設（ショッピング、レストラン、利便性）",
+        "value": 1,
+        "tags": ["commercial", "priority"]
+      },
+      {
+        "id": "priority_01_culture",
+        "text": "文化・娯楽（エンターテイメント、歴史、ナイトライフ）",
+        "value": 1,
+        "tags": ["culture", "priority"]
+      },
+      {
+        "id": "priority_01_price",
+        "text": "価格帯（家賃レベル、生活コスト、外食コスト）",
+        "value": 1,
+        "tags": ["price", "priority"]
+      },
+      {
+        "id": "priority_01_none",
+        "text": "特になし（バランス重視）",
+        "value": 1,
+        "tags": ["none", "priority"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+/* Base App Styles */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #9ccc65 0%, #689f38 50%, #558b2f 100%);
+}
+
+.App-header {
+  background: rgba(51, 105, 30, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 1rem 2rem;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.App-header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.App-header p {
+  margin: 0;
+  opacity: 0.8;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  min-height: calc(100vh - 120px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .App-header {
+    padding: 1rem;
+  }
+  
+  .App-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .App-header p {
+    font-size: 0.9rem;
+  }
+  
+  main {
+    padding: 1rem;
+    min-height: calc(100vh - 100px);
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header {
+    padding: 0.75rem;
+  }
+  
+  .App-header h1 {
+    font-size: 1.25rem;
+  }
+  
+  main {
+    padding: 0.5rem;
+  }
+}
