@@ -1,6 +1,7 @@
 import { Router, Request, Response } from 'express';
 import { recommendationService } from '../services/RecommendationService';
 import { diagnosticService } from '../services/DiagnosticService';
+import { stationService } from '../services/StationService';
 import { UserProfile } from '../types';
 
 const router = Router();
@@ -216,7 +217,6 @@ router.post('/explain/:stationId', (req: Request, res: Response) => {
     }
 
     // Get station information
-    const { stationService } = require('../services/StationService');
     const station = stationService.getStationById(stationId);
     
     if (!station) {

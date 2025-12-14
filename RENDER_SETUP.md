@@ -16,8 +16,8 @@
 | **Environment** | **Node** | ⭐ 言語設定 |
 | **Region** | `Oregon (US West)` | 推奨 |
 | **Branch** | `main` | 必須 |
-| **Root Directory** | `backend` | 必須 |
-| **Build Command** | `npm install && npm run build` | 必須 |
+| **Root Directory** | `backend` | ⭐ 重要 |
+| **Build Command** | `npm ci && npm run build` | 必須 |
 | **Start Command** | `npm start` | 必須 |
 
 ## 環境変数設定
