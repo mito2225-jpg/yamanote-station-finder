@@ -364,7 +364,7 @@
       },
       {
         "id": "priority_01_culture",
-        "text": "文化・娯楽（エンターテイメント、歴史、ナイトライフ）",
+        "text": "文化・娯楽（エンターテイメント、歴史、居酒屋・バー）",
         "value": 1,
         "tags": ["culture", "priority"]
       },

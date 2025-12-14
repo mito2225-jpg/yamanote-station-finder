@@ -377,7 +377,7 @@ const StationDetail: React.FC<StationDetailProps> = ({
           <div className="feature-group">
             {renderFeatureBar('エンターテイメント', station.features.culture.entertainment, 'culture', 'entertainment')}
             {renderFeatureBar('歴史・文化', station.features.culture.history, 'culture', 'history')}
-            {renderFeatureBar('ナイトライフ', station.features.culture.nightlife, 'culture', 'nightlife')}
+            {renderFeatureBar('居酒屋・バー', station.features.culture.nightlife, 'culture', 'nightlife')}
           </div>
         </div>
 

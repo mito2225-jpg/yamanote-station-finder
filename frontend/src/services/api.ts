@@ -21,9 +21,10 @@ export class ApiError extends Error {
 }
 
 // Base API configuration
-const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? '/api' 
-  : 'http://localhost:3001/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 
+  (process.env.NODE_ENV === 'production' 
+    ? '/api' 
+    : `http://${window.location.hostname}:3001/api`);
 
 // Generic fetch wrapper with error handling
 async function apiRequest<T>(
